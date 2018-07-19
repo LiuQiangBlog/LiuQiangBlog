@@ -22,7 +22,7 @@ def git_operation():
     os.system('git add --all')
     os.system('git commit -m "update LiuQiangBlog"')
     os.system('git remote add origin https://github.com/LiuQiangBlog/LiuQiangBlog.git')
-    os.system('git push -u origin master')
+    os.system('git push')
 
 
 if __name__ == "__main__":
