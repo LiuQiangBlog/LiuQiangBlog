@@ -82,6 +82,9 @@ deploy:
   repository: https://github.com/LiuQiangBlog/LiuQiangBlog.github.io.git
   branch: master
 
+#plugins:
+#  - hexo-tag-video
+
 jsonContent:
   meta: false
   pages: false

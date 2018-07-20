@@ -23,6 +23,7 @@
     "hexo-server": "^0.2.0",
     "hexo-tag-aplayer": "^3.0.4",
     "hexo-tag-dplayer": "^0.3.3",
+    "hexo-tag-video": "0.0.2",
     "hexo-wordcount": "^3.0.2",
     "live2d-widget-model-shizuku": "^1.0.5",
     "live2d-widget-model-wanko": "^1.0.5"
