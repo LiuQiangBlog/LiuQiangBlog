@@ -24,3 +24,7 @@ sudo apt-get remove notepadqq
 sudo add-apt-repository --removeppa:notepadqq-team/notepadqq
 ```
 
+---
+
+- 本文作者：LiuQiang
+- 版权声明：本文为作者的原创文章，转载时请务必注明出处！

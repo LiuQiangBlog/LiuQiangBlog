@@ -150,3 +150,7 @@ Graphics(infile=src_dir + infile, outfile=dst_dir + infile).cut_by_ratio() #图�
 
 运行**ImageProcess.py**文件即可实现批量图片裁剪和转储。
 
+---
+
+- 本文作者：LiuQiang
+- 版权声明：本文为作者的原创文章，转载时请务必注明出处！

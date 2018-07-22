@@ -1,6 +1,7 @@
 ---
-title: 基于Hexo的Yilia主题搭建个人的静态博客网站
+title: 基于Hexo的Yilia主题搭建博客网站
 date: 2018-07-17 21:04:41
+reward: true
 tags:
 	- Hexo
 	- Yilia	

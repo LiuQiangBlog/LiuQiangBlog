@@ -1,0 +1,70 @@
+---
+title: vscode配置Python\C++\Lua环境
+date: 2018-07-21 22:21:27
+components: true
+reward: true
+toc: true
+tags:
+	- 随笔
+---
+
+`安装vscode`：
+
+[下载安装包](https://code.visualstudio.com/)
+
+```bash
+sudo dpkg i code_1.25.1-1531323788_amd64.deb
+```
+
+`配置Python开发环境`：
+
+在扩展中安装`Python`插件即可
+
+`配置C++开发环境`：
+
+在扩展中安装`C/C++`，`C/C++ Clang Command Adapter`，`C/C++ Snippets`插件即可
+
+`配置Lua开发环境`：
+
+在扩展中安装`Lua`，`Lua lint`，`Lua Plus`插件即可
+
+`安装运行程序的插件`：
+
+在扩展中安装`Run Code`插件，该插件支持非常多的编程语言的编译运行命令，它是通过源码的后缀自动识别来进行相关命令的调用的。
+
+`settings.json`配置文件：
+
+```json
+{
+    "python.pythonPath": "/home/liuqiang/anaconda3/bin/python",
+    // "python.pythonPath": "~/anaconda3/bin/python",
+    // "python.pythonPath": "/usr/bin/python3",
+    // "python.pythonPath": "/usr/bin/python",
+    // "workbench.colorTheme": "Andromeda",
+    "files.autoSave": "afterDelay",
+    "editor.fontSize": 24,
+    "python.autoComplete.addBrackets": true,
+    "editor.cursorBlinking": "blink",
+    "python.linting.flake8Enabled": true,
+    "python.linting.flake8Args": ["--disable-msgs=F405"],
+    "python.linting.pylintEnabled": false,
+    //安装yapf之后在VScode中按Alt+Shift+F即可自动格式化代码
+    "python.formatting.provider": "yapf",
+    "workbench.colorCustomizations": {
+        "editor.selectionBackground":"#8A8A8A",
+        "editor.selectionHighlightBackground": "#8A8A8A"
+    },
+    "window.zoomLevel": -0.001,
+    //查看可用的颜色主题：文件》首选项》颜色主题，选择自己中意的即可
+    // "workbench.colorTheme": "Default Dark+"
+    // "workbench.colorTheme": "Monokai"
+    "workbench.colorTheme": "Andromeda",
+    "code-runner.runInTerminal": true,
+    "cmake.cmakePath": "/home/liuqiang/cmake-3.10.2/bin/cmake",
+    // "terminal.integrated.fontSize": 16,
+    // "terminal.integrated.fontFamily": "Ubuntu mono",
+}
+```
+
+
+

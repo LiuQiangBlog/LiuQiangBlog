@@ -176,6 +176,8 @@ Installing to device failed!
 
 `参考文献：` [Connecting Android Devices](https://doc.qt.io/qtcreator/creator-developing-android.html) | [sdkmanager](https://developer.android.google.cn/studio/command-line/sdkmanager) |
 
+---
+
 - 本文作者：LiuQiang
 - 版权声明：本文为作者的原创文章，转载时请务必注明出处！
 

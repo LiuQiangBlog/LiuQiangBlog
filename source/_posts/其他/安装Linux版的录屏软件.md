@@ -1,6 +1,8 @@
 ---
-title: 安装和使用Linux版的录屏软件recordmydesktop
+title: 安装Linux版的录屏软件
 date: 2018-07-18 10:07:58
+components: true
+reward: true
 tags:
 	- Linux
 	- 录屏软件
